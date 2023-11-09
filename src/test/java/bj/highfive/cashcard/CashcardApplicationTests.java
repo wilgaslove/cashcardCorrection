@@ -37,7 +37,12 @@ class CashCardApplicationTests {
 		ResponseEntity<String> response = restTemplate.getForEntity("/cashcards/1", String.class);
 		assertThat(response.getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
 		assertThat(response.getBody()).isBlank();
-
 	}
 
+	@Test 
+	public void shouldCreateAnewCashCard(){
+		CashCard newCashCard = new CashCard(null, 250.00);
+		ResponseEntity
+
+	}
 }

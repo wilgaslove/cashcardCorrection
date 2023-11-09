@@ -8,3 +8,11 @@ Ecrire des tests avant d'implémenter le code de l'application est le développe
 ## Base de données intégrée
 Une BDD intégrée est une base de données que est intégrée directement dans une application logicielle et fonctionne en mode embarqué. Cela signifie qu'elle est gérée et utilisée par l'application elle-même, sans nécessiter de serveur de base de données externe. Ces BDD sont stackées localement sur le système de l'utilisateur ou dans le répertoire de l'application, et elles sont généralement légères et optimisées pour être rapides et efficaces
 
+## H2 
+H2 est l'un des exemples les plus couramment utilisés de BDD intégrées. H2 est une BDD relationnelle écrite en Java qui peut être embarquée dans une application Spring. Elle prend en charge le mode mémoire (les données sont stockées en mémoire et sont perdues lorsque l'application est arrêtée) ainsi que le mode fichier (les données sont stockées dans un fichier su le système de fichiers de l'ordinateur).
+
+
+
+
+
+

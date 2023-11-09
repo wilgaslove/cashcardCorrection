@@ -36,8 +36,6 @@ Nous pouvons chaînes des méthodes pour éffectuer des opérations sur la valeu
 Optional<String> valeur = // ... obtenir une valeur peut-être nulle
 valeur.ifPresent(v -> System.out.println("Valeur présente:" + v))
 ```
-
-
  
 3. Traitment des valeurs par défaut:
 Nous pouvons spécifier une valeur par défaut à utiliser si la valeur `Optional` est absente, en utilisant la méthode `orElse`

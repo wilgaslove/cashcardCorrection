@@ -13,6 +13,7 @@ H2 est l'un des exemples les plus couramment utilisés de BDD intégrées. H2 es
 
 
 
-
+## Optional
+`Optional` est une classe générique qui peut contenir soit une valeur non nulle, soit aucune valeur (c-à-d vide). L'utilisation de `Optinal` peut rendre le code plus explicite en indiquant clairement qu'une valeur peut être absente et en forçant les développeurs à traiter ce cas.
 
 

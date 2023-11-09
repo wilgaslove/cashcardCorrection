@@ -30,7 +30,12 @@ if(valeurOptionel.isPresent()){
 }
 ```
 
-
+2. Chaînage de méthodes:
+Nous pouvons chaînes des méthodes pour éffectuer des opérations sur la valeur si elle est présente, ou ignorer simplement l'opération si la valeur est absente 
+```java
+Optional<String> valeur = // ... obtenir une valeur peut-être nulle
+valeur.ifPresent(v -> System.out.println("Valeur présente:" + v))
+```
 
 
 
